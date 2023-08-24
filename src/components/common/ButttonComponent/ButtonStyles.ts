@@ -185,3 +185,25 @@ export const StartButton = StyleSheet.create<Style>({
     fontFamily: "Inter-SemiBold",
   },
 });
+
+export const next = StyleSheet.create({
+  container: {
+    height: 56,
+    width: "100%",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: Colors.blue_03,
+    borderColor: Colors.Lavender_Pinocchio,
+    borderRadius: 4,
+    borderWidth: 0.5,
+    
+  },
+  title: {
+    color: Colors.white,
+    fontWeight: "500",
+    fontSize: 20,
+    fontFamily: "Inter-SemiBold",
+  },
+   
+});
